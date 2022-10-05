@@ -1,0 +1,39 @@
+hr{
+  background-color: black;
+}
+ion-grid{
+  ion-row{
+    ion-col{
+      ion-button{
+        display: flex;
+      }
+    }
+  }
+}
+
+ion-label {
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+ion-title {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.low-bar {
+  height: rem-calc(45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: rem-calc(20);
+      font-weight: 400;
+    }
+  }
+}
